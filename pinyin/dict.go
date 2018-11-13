@@ -10236,7 +10236,7 @@ var (
 		"朱干", "	zhu1	gan1",
 		"死劲", "	si3	jing4",
 		"复还", "	fu4	huan2",
-		"还呗", "	huan2 bei4",
+		"还呗", "	huan2 	bei4",
 		"燕国", "	yan1	guo2",
 		"殆尽", "	dai4	jin4",
 		"熨斗", "	yun4	dou3",

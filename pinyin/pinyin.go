@@ -222,7 +222,7 @@ func (p *Dict) romanize(s string, convertName bool) string {
 		var d1 string
 		r := strings.Split(dict[i+1], " ")
 		for _, v := range r {
-			d1 = re.ReplaceAllString(v, "")
+			d1 += re.ReplaceAllString(v, "")
 		}
 		s = strings.Replace(s, dict[i], d1, -1)
 	}
