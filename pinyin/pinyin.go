@@ -217,13 +217,12 @@ func (p *Dict) romanize(s string, convertName bool) string {
 			}
 		}
 	}
-
+	re := regexp.MustCompile(`[0-9$]`)
 	for i := 0; i < len(dict); i += 2 {
 		var d1 string
 		r := strings.Split(dict[i+1], " ")
 		for _, v := range r {
-			re := regexp.MustCompile(`[0-9$]`)
-			s = re.ReplaceAllString(v, "")
+			d1 = re.ReplaceAllString(v, "")
 		}
 		s = strings.Replace(s, dict[i], d1, -1)
 	}
