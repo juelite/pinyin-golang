@@ -15374,7 +15374,7 @@ var (
 		"兴尽", "	xing4	jin4",
 		"陡削", "	dou3	xiao1",
 		"降服", "	xiang2	fu2",
-		"随行", "	sui2	hang2",
+		"随行", "	sui2	xing2",
 		"降伏", "	xiang2	fu2",
 		"兴海", "	xing1	hai3",
 		"吹弹", "	chui1	tan2",
